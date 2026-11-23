@@ -3,7 +3,8 @@
 
 Writes the review, one line, to /output/entry.txt. Stdlib only.
 The gate wants UTF-8 text of 1-160 characters, not whitespace-only,
-with no trailing newline.
+with no trailing newline. Kept short on purpose: on an exact rate tie
+the smaller text places first, so every spare word is a liability.
 """
 
 import os
